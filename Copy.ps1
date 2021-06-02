@@ -8,6 +8,6 @@ $config | foreach {
     $version = Get-Date -Format 'yyyyMMddhhmmss'
     $destiny = "$($container)$($version).txt"
 
-    C:/temp/azcopy login -identity $identity
-    C:/temp/azcopy copy $source $destiny
+    C:/BackupToStorage/azcopy login -identity $identity
+    C:/BackupToStorage/azcopy copy $source $destiny
 }
