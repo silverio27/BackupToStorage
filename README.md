@@ -23,6 +23,9 @@ Upload de arquivos de uma máquina virtual para azure storage
 
 - identity: Obtenha uma identidade gerenciada da vm
 
+![vmid](https://user-images.githubusercontent.com/59040502/120538193-979f4e80-c3bc-11eb-9379-dd01418bca79.png)
+
+
 - source: Aponte o caminho do arquivo que será enviado
 
 - container: Aponte a url do storage + container
